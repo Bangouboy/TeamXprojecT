@@ -1,0 +1,63 @@
+/*================== INDEX ==================*/
+
+h1 {
+	font-family: Verdana, sans serif;
+	color: #268fd2;
+	text-align: center;
+	
+}
+p {
+	font-size: 20px;
+}
+ul {
+	padding:0;
+    margin:0;
+    list-style-type:none;
+}
+#header {
+  list-style: none ;
+  margin: 0 ;
+  padding: 0 ;
+}
+
+#header li {
+  display: inline ;
+  margin-right: 1px ;
+  color: #000000 ;
+  background: #286FD2  ;
+}
+#header li a {
+	border: 5px solid #600 ;
+	font: verdana,sans-serif ;
+	line-height: 1em ;
+	padding: 4px 20px ;
+	text-align: center ;
+	text-decoration: none ;
+  }
+#footer {
+	list-style: none ;
+    margin: 0 ;
+    padding: 0 ;
+	display: inline;
+	background: #4a4a4a;
+	color: #bebebe;
+}
+#footer li {
+	display: inline ;
+	margin-right: 1px ;
+	color: #000000 ;
+	background: #286FD2  ;
+	
+}
+#footer li a {
+	border: 5px solid #600 ;
+	font: verdana,sans-serif ;
+	line-height: 1em ;
+	padding: 4px 20px ;
+	text-align: center ;
+	text-decoration: none ;
+}	
+#nav li a:hover, #nav li a:focus, #nav li a:active {
+	background: #900 ;
+	text-decoration: underline ;
+}
